@@ -9,5 +9,4 @@ before_script:
   - chmod +x gradlew
 
 script:
-  - echo "This branch is $TRAVIS_BRANCH"
   - ./gradlew assemble
